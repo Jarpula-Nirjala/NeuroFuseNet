@@ -40,7 +40,7 @@ This project uses a hybrid deep learning approach combining modern architectures
 ![Confusion Matrix](outputs/confusion_matrix.png)
 
 ### 🔹 Accuracy Plot
-![Accuracy](outputs/accuracy_plot.png)
+![Accuracy](outputs/training_curves.png)
 
 ### 🔹 ROC Curve
 ![ROC Curve](outputs/roc_curves.png)
@@ -60,14 +60,16 @@ This project uses a hybrid deep learning approach combining modern architectures
 ---
 
 ## 📂 Project Structure
+
+
 alzheimer-parkinson-classifier/
 │
 ├── notebooks/
 │ └── NIRJALA_13.ipynb
 │
 ├── outputs/
-│ ├── accuracy_plot.png
 │ ├── confusion_matrix.png
+│ ├── training_curves.png
 │ ├── roc_curves.png
 │
 ├── model/
@@ -75,7 +77,6 @@ alzheimer-parkinson-classifier/
 │
 ├── README.md
 ├── requirements.txt
-
 
 
 ---
@@ -86,28 +87,25 @@ alzheimer-parkinson-classifier/
 ```bash
 git clone https://github.com/Jarpula-Nirjala/alzheimer-parkinson-classifier.git
 cd alzheimer-parkinson-classifier
-
-### 2. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
+3. Run the notebook
 
-### 3. Run the notebook
+Open:
+
 notebooks/NIRJALA_13.ipynb
-
-
 
 ⚠️ Dataset
 Due to size limitations, the dataset is not included.
 
-👉 Download dataset here:
+👉 Download dataset:
 https://drive.google.com/file/d/1AnHbNwv5rBtxYwCBDUwXS_dIGAs2FX1F/view?usp=sharing
 
-
 📥 Model Download
-Due to GitHub file size limitations, the trained model (~195MB) is hosted on Google Drive:
+Due to GitHub file size limitations (~195MB), the trained model is hosted on Google Drive:
 
-👉 https://drive.google.com/file/d/1rDF-vTOgMSIrpE3rV1OXukyhXiVNxxRq/view?usp=sharing
-
-
+👉 Download model:
+https://drive.google.com/file/d/1rDF-vTOgMSIrpE3rV1OXukyhXiVNxxRq/view?usp=sharing
 
 📌 Future Improvements
 Deploy as a web application (Streamlit/Flask)
@@ -115,12 +113,10 @@ Add real-time MRI prediction interface
 Expand dataset for better generalization
 Optimize model for faster inference
 
-
 ✨ Author
 Jarpula Nirjala
 📧 nirjala8462@gmail.com
 🔗 https://www.linkedin.com/in/nirjala-jarpula-749346321/
-
 
 ⭐ If you like this project
 Give it a ⭐ on GitHub!
