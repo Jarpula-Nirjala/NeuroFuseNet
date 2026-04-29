@@ -8,7 +8,7 @@ A deep learning-based system for classifying brain MRI scans into:
 * Parkinson’s Disease
 * Healthy Control
 
-🚀 Achieved **97.84% test accuracy** using advanced deep learning techniques.
+🚀 Achieved **98.46% test accuracy** using advanced deep learning techniques.
 
 ---
 
